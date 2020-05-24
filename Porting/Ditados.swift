@@ -14,13 +14,15 @@ struct Ditados {
     let descricao: String
     let traducao: String
     let perguntas: [String]
+    let respostas: [String]
     let indiceRespostaCorreta: Int
     
-    init(titulo: String, descricao: String, traducao: String, perguntas: [String], indiceRespostaCorreta: Int) {
+    init(titulo: String, descricao: String, traducao: String, perguntas: [String], respostas: [String], indiceRespostaCorreta: Int) {
         self.titulo = titulo
         self.descricao = descricao
         self.traducao = traducao
         self.perguntas = perguntas
+        self.respostas = respostas
         self.indiceRespostaCorreta = indiceRespostaCorreta
     }
 }
