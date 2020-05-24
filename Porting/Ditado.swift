@@ -9,15 +9,15 @@
 import Foundation
 import UIKit
 
-struct Ditados {
+struct Ditado {
     let titulo: String
     let descricao: String
     let traducao: String
-    let perguntas: [String]
+    let pergunta: String
     let respostas: [String]
     let indiceRespostaCorreta: Int
     
-    init(titulo: String, descricao: String, traducao: String, perguntas: [String], respostas: [String], indiceRespostaCorreta: Int) {
+    init(titulo: String, descricao: String, traducao: String, pergunta: String, respostas: [String], indiceRespostaCorreta: Int) {
         self.titulo = titulo
         self.descricao = descricao
         self.traducao = traducao
