@@ -22,4 +22,10 @@ struct Audio {
         self.respostas = respostas
         self.indiceRespostaCorreta = indiceRespostaCorreta
     }
+    
+    func setUpMock() -> [Audio] {
+        var audios = [Audio]()
+        
+        return audios
+    }
 }
