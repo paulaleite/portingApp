@@ -10,12 +10,10 @@ import UIKit
 
 class DitadoTableViewController: UITableViewController {
     
-    let ditado = Ditado()
-    let arrayDitado: [Ditado]
+    var arrayDitado: [Ditado] = Ditado.setUpMock()
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        arrayDitado.setUpMock()
     }
 
     // MARK: - Table view data source
@@ -31,7 +29,7 @@ class DitadoTableViewController: UITableViewController {
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         
         let cell = tableView.dequeueReusableCell(withIdentifier: "cDitado", for: indexPath)
-        cell.textLabel?.text = arrayDitado[indexPath.row].ditado
+        cell.textLabel?.text = arrayDitado[indexPath.row].titulo
         
         return cell
     }
