@@ -13,6 +13,7 @@
 		1EA5942224773BF3007FCBE7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1EA5942024773BF3007FCBE7 /* Main.storyboard */; };
 		1EA5942424773BF4007FCBE7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1EA5942324773BF4007FCBE7 /* Assets.xcassets */; };
 		1EA5942724773BF4007FCBE7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1EA5942524773BF4007FCBE7 /* LaunchScreen.storyboard */; };
+		2256F4682479FAFA0063A47A /* ButtonHome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2256F4672479FAFA0063A47A /* ButtonHome.swift */; };
 		328223F12478984E008429F0 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 328223EF2478984E008429F0 /* HomeViewController.swift */; };
 		328223F22478984E008429F0 /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 328223F02478984E008429F0 /* HomeViewController.xib */; };
 /* End PBXBuildFile section */
@@ -26,6 +27,7 @@
 		1EA5942324773BF4007FCBE7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1EA5942624773BF4007FCBE7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1EA5942824773BF4007FCBE7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2256F4672479FAFA0063A47A /* ButtonHome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonHome.swift; sourceTree = "<group>"; };
 		328223EF2478984E008429F0 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		328223F02478984E008429F0 /* HomeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -77,6 +79,7 @@
 			children = (
 				328223EF2478984E008429F0 /* HomeViewController.swift */,
 				328223F02478984E008429F0 /* HomeViewController.xib */,
+				2256F4672479FAFA0063A47A /* ButtonHome.swift */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -153,6 +156,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2256F4682479FAFA0063A47A /* ButtonHome.swift in Sources */,
 				1EA5941F24773BF3007FCBE7 /* ViewController.swift in Sources */,
 				1EA5941B24773BF3007FCBE7 /* AppDelegate.swift in Sources */,
 				1EA5941D24773BF3007FCBE7 /* SceneDelegate.swift in Sources */,
