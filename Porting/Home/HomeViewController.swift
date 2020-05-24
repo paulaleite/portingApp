@@ -9,9 +9,15 @@
 import UIKit
 
 class HomeViewController: UIViewController {
-
+    
+    @IBOutlet weak var buttonAR: UIButton!
+    @IBOutlet weak var buttonEscuta: UIButton!
+    @IBOutlet weak var buttonDitados: UIButton!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        self.navigationController?.navigationBar.prefersLargeTitles = true
+        self.title = "Porting"
         self.view.backgroundColor = .white
 
     }

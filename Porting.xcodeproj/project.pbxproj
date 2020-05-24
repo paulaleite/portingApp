@@ -13,6 +13,9 @@
 		1EA5942224773BF3007FCBE7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1EA5942024773BF3007FCBE7 /* Main.storyboard */; };
 		1EA5942424773BF4007FCBE7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1EA5942324773BF4007FCBE7 /* Assets.xcassets */; };
 		1EA5942724773BF4007FCBE7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1EA5942524773BF4007FCBE7 /* LaunchScreen.storyboard */; };
+		1EC6A989247A029900713CA8 /* Ditado.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EC6A988247A029900713CA8 /* Ditado.swift */; };
+		1EC6A98B247A041100713CA8 /* Audio.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EC6A98A247A041100713CA8 /* Audio.swift */; };
+		2256F4682479FAFA0063A47A /* ButtonHome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2256F4672479FAFA0063A47A /* ButtonHome.swift */; };
 		2256F470247A0C010063A47A /* DitadoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2256F46E247A0C010063A47A /* DitadoTableViewCell.swift */; };
 		2256F471247A0C010063A47A /* DitadoTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2256F46F247A0C010063A47A /* DitadoTableViewCell.xib */; };
 		2256F474247A0C780063A47A /* DitadoTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2256F472247A0C780063A47A /* DitadoTableViewController.swift */; };
@@ -30,6 +33,9 @@
 		1EA5942324773BF4007FCBE7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1EA5942624773BF4007FCBE7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1EA5942824773BF4007FCBE7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1EC6A988247A029900713CA8 /* Ditado.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ditado.swift; sourceTree = "<group>"; };
+		1EC6A98A247A041100713CA8 /* Audio.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Audio.swift; sourceTree = "<group>"; };
+		2256F4672479FAFA0063A47A /* ButtonHome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonHome.swift; sourceTree = "<group>"; };
 		2256F46E247A0C010063A47A /* DitadoTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DitadoTableViewCell.swift; sourceTree = "<group>"; };
 		2256F46F247A0C010063A47A /* DitadoTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DitadoTableViewCell.xib; sourceTree = "<group>"; };
 		2256F472247A0C780063A47A /* DitadoTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DitadoTableViewController.swift; sourceTree = "<group>"; };
@@ -77,6 +83,8 @@
 				1EA5942324773BF4007FCBE7 /* Assets.xcassets */,
 				1EA5942524773BF4007FCBE7 /* LaunchScreen.storyboard */,
 				1EA5942824773BF4007FCBE7 /* Info.plist */,
+				1EC6A988247A029900713CA8 /* Ditado.swift */,
+				1EC6A98A247A041100713CA8 /* Audio.swift */,
 			);
 			path = Porting;
 			sourceTree = "<group>";
@@ -97,6 +105,7 @@
 			children = (
 				328223EF2478984E008429F0 /* HomeViewController.swift */,
 				328223F02478984E008429F0 /* HomeViewController.xib */,
+				2256F4672479FAFA0063A47A /* ButtonHome.swift */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -175,12 +184,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2256F4682479FAFA0063A47A /* ButtonHome.swift in Sources */,
 				1EA5941F24773BF3007FCBE7 /* ViewController.swift in Sources */,
 				2256F470247A0C010063A47A /* DitadoTableViewCell.swift in Sources */,
 				1EA5941B24773BF3007FCBE7 /* AppDelegate.swift in Sources */,
 				1EA5941D24773BF3007FCBE7 /* SceneDelegate.swift in Sources */,
+				1EC6A989247A029900713CA8 /* Ditado.swift in Sources */,
 				2256F474247A0C780063A47A /* DitadoTableViewController.swift in Sources */,
 				328223F12478984E008429F0 /* HomeViewController.swift in Sources */,
+				1EC6A98B247A041100713CA8 /* Audio.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
