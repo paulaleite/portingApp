@@ -22,6 +22,10 @@
 		2256F475247A0C780063A47A /* DitadoTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2256F473247A0C780063A47A /* DitadoTableViewController.xib */; };
 		328223F12478984E008429F0 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 328223EF2478984E008429F0 /* HomeViewController.swift */; };
 		328223F22478984E008429F0 /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 328223F02478984E008429F0 /* HomeViewController.xib */; };
+		328223F52478A981008429F0 /* SelectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 328223F42478A981008429F0 /* SelectionView.swift */; };
+		328223F92478AC72008429F0 /* ExerciseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 328223F72478AC72008429F0 /* ExerciseViewController.swift */; };
+		328223FA2478AC72008429F0 /* ExerciseViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 328223F82478AC72008429F0 /* ExerciseViewController.xib */; };
+		328223FC2478B7EA008429F0 /* SelectionView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 328223FB2478B7EA008429F0 /* SelectionView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +46,10 @@
 		2256F473247A0C780063A47A /* DitadoTableViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DitadoTableViewController.xib; sourceTree = "<group>"; };
 		328223EF2478984E008429F0 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		328223F02478984E008429F0 /* HomeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
+		328223F42478A981008429F0 /* SelectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectionView.swift; sourceTree = "<group>"; };
+		328223F72478AC72008429F0 /* ExerciseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseViewController.swift; sourceTree = "<group>"; };
+		328223F82478AC72008429F0 /* ExerciseViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ExerciseViewController.xib; sourceTree = "<group>"; };
+		328223FB2478B7EA008429F0 /* SelectionView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SelectionView.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +83,8 @@
 			isa = PBXGroup;
 			children = (
 				2256F469247A0B450063A47A /* Ditados */,
+				328223F62478AC58008429F0 /* Exercise */,
+				328223F32478A94A008429F0 /* Selection */,
 				328223EE24789835008429F0 /* Home */,
 				1EA5941A24773BF3007FCBE7 /* AppDelegate.swift */,
 				1EA5941C24773BF3007FCBE7 /* SceneDelegate.swift */,
@@ -108,6 +118,24 @@
 				2256F4672479FAFA0063A47A /* ButtonHome.swift */,
 			);
 			path = Home;
+			sourceTree = "<group>";
+		};
+		328223F32478A94A008429F0 /* Selection */ = {
+			isa = PBXGroup;
+			children = (
+				328223F42478A981008429F0 /* SelectionView.swift */,
+				328223FB2478B7EA008429F0 /* SelectionView.xib */,
+			);
+			path = Selection;
+			sourceTree = "<group>";
+		};
+		328223F62478AC58008429F0 /* Exercise */ = {
+			isa = PBXGroup;
+			children = (
+				328223F72478AC72008429F0 /* ExerciseViewController.swift */,
+				328223F82478AC72008429F0 /* ExerciseViewController.xib */,
+			);
+			path = Exercise;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -169,11 +197,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				2256F475247A0C780063A47A /* DitadoTableViewController.xib in Resources */,
+				328223FA2478AC72008429F0 /* ExerciseViewController.xib in Resources */,
 				1EA5942724773BF4007FCBE7 /* LaunchScreen.storyboard in Resources */,
 				2256F471247A0C010063A47A /* DitadoTableViewCell.xib in Resources */,
 				1EA5942424773BF4007FCBE7 /* Assets.xcassets in Resources */,
 				1EA5942224773BF3007FCBE7 /* Main.storyboard in Resources */,
 				328223F22478984E008429F0 /* HomeViewController.xib in Resources */,
+				328223FC2478B7EA008429F0 /* SelectionView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -193,6 +223,8 @@
 				2256F474247A0C780063A47A /* DitadoTableViewController.swift in Sources */,
 				328223F12478984E008429F0 /* HomeViewController.swift in Sources */,
 				1EC6A98B247A041100713CA8 /* Audio.swift in Sources */,
+				328223F92478AC72008429F0 /* ExerciseViewController.swift in Sources */,
+				328223F52478A981008429F0 /* SelectionView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
