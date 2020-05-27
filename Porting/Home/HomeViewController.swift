@@ -21,5 +21,13 @@ class HomeViewController: UIViewController {
         self.view.backgroundColor = .white
 
     }
+    
+    @IBAction func aparecerTableDitados(_ sender: Any) {
+        
+        let ditadoTableViewController = DitadoTableViewController()
+        self.navigationController?.pushViewController(ditadoTableViewController, animated: true)
+        
+    }
+    
 
 }

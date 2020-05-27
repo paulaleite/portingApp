@@ -14,6 +14,8 @@ class DitadoTableViewController: UITableViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        self.tableView.register(UINib(nibName: "DitadoTableViewCell", bundle: nil), forCellReuseIdentifier: "DitadoTableViewCell")
     }
 
     // MARK: - Table view data source
@@ -28,7 +30,7 @@ class DitadoTableViewController: UITableViewController {
 
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         
-        let cell = tableView.dequeueReusableCell(withIdentifier: "cDitado", for: indexPath)
+        let cell = tableView.dequeueReusableCell(withIdentifier: "DitadoTableViewCell", for: indexPath)
         cell.textLabel?.text = arrayDitado[indexPath.row].titulo
         
         return cell
