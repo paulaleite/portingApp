@@ -14,6 +14,13 @@ class DitadoTableViewController: UITableViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        self.tableView.register(UINib(nibName: "DitadoTableViewCell", bundle: nil), forCellReuseIdentifier: "DitadoTableViewCell")
+        self.tableView.rowHeight = UITableView.automaticDimension
+        self.tableView.estimatedRowHeight = 200
+        
+        self.title = "Exercícios de Ditado"
+        navigationItem.largeTitleDisplayMode = .never
     }
 
     // MARK: - Table view data source
@@ -28,9 +35,18 @@ class DitadoTableViewController: UITableViewController {
 
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         
-        let cell = tableView.dequeueReusableCell(withIdentifier: "cDitado", for: indexPath)
-        cell.textLabel?.text = arrayDitado[indexPath.row].titulo
+        let cell = tableView.dequeueReusableCell(withIdentifier: "DitadoTableViewCell", for: indexPath) as? DitadoTableViewCell
+        cell?.tituloDitado.text = arrayDitado[indexPath.row].titulo
         
-        return cell
+        guard let safeCell = cell else {
+            return UITableViewCell()
+        }
+        
+        return safeCell
+    }
+    
+    override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+//        let perguntaViewController = ExerciseViewController()
+//        self.navigationController?.pushViewController(perguntaViewController, animated: true)
     }
 }

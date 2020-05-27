@@ -47,6 +47,9 @@
                                 <constraint firstAttribute="height" constant="80" id="5mP-oh-Mk0"/>
                             </constraints>
                             <state key="normal" title="Exercicios Ditados"/>
+                            <connections>
+                                <action selector="aparecerTableDitados:" destination="-1" eventType="touchUpInside" id="0Tv-ps-rhm"/>
+                            </connections>
                         </button>
                     </subviews>
                 </stackView>
