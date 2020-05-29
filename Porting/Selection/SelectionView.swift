@@ -27,7 +27,7 @@ class SelectionView: UIView {
     required init?(coder: NSCoder) {
         super.init(coder: coder)
         commonInit()
-        setupTexts()
+//        setupTexts()
         setupButtons()
     }
     
@@ -38,9 +38,9 @@ class SelectionView: UIView {
         contentView.autoresizingMask = [.flexibleWidth, .flexibleHeight]
     }
     
-    func setupTexts() {
+    func setupTexts(answers: [String]) {
         for i in selectionLabels!.indices {
-            selectionLabels[i].text = texts[i]
+            selectionLabels[i].text = answers[i]
         }
     }
     
