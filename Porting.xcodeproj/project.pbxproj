@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1E2570DF24814EDB0041EA1A /* ComingToBrazil.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 1E2570DD24814DD10041EA1A /* ComingToBrazil.m4a */; };
+		1E2570E024814EDB0041EA1A /* FoodBrazil.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 1E2570DE24814DD10041EA1A /* FoodBrazil.m4a */; };
+		1E2570E124814EDB0041EA1A /* OandA.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 1E2570DC24814DD10041EA1A /* OandA.m4a */; };
 		1EA5941B24773BF3007FCBE7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EA5941A24773BF3007FCBE7 /* AppDelegate.swift */; };
 		1EA5941D24773BF3007FCBE7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EA5941C24773BF3007FCBE7 /* SceneDelegate.swift */; };
 		1EA5941F24773BF3007FCBE7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EA5941E24773BF3007FCBE7 /* ViewController.swift */; };
@@ -227,6 +230,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1E2570DF24814EDB0041EA1A /* ComingToBrazil.m4a in Resources */,
+				1E2570E024814EDB0041EA1A /* FoodBrazil.m4a in Resources */,
+				1E2570E124814EDB0041EA1A /* OandA.m4a in Resources */,
 				2256F475247A0C780063A47A /* DitadoTableViewController.xib in Resources */,
 				328223FA2478AC72008429F0 /* ExerciseViewController.xib in Resources */,
 				1EA5942724773BF4007FCBE7 /* LaunchScreen.storyboard in Resources */,
@@ -403,7 +409,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = DHAN829484;
+				DEVELOPMENT_TEAM = X54K5PJVGU;
 				INFOPLIST_FILE = Porting/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -421,7 +427,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = DHAN829484;
+				DEVELOPMENT_TEAM = X54K5PJVGU;
 				INFOPLIST_FILE = Porting/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
