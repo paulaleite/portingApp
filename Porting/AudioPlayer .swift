@@ -15,7 +15,7 @@ struct AudioPlayer {
     static func playSound(named: String) {
         var player: AVAudioPlayer?
         
-        guard let url = Bundle.main.path(forResource: named, ofType: "mp3") else {
+        guard let url = Bundle.main.path(forResource: named, ofType: "m4a") else {
             print("file not found")
             return
             

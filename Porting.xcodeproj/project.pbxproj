@@ -32,6 +32,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1E2570DC24814DD10041EA1A /* OandA.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = OandA.m4a; sourceTree = "<group>"; };
+		1E2570DD24814DD10041EA1A /* ComingToBrazil.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = ComingToBrazil.m4a; sourceTree = "<group>"; };
+		1E2570DE24814DD10041EA1A /* FoodBrazil.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = FoodBrazil.m4a; sourceTree = "<group>"; };
 		1EA5941724773BF2007FCBE7 /* Porting.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Porting.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1EA5941A24773BF3007FCBE7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1EA5941C24773BF3007FCBE7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -159,6 +162,9 @@
 		32AE453F2481495200E1043C /* AudioFiles */ = {
 			isa = PBXGroup;
 			children = (
+				1E2570DD24814DD10041EA1A /* ComingToBrazil.m4a */,
+				1E2570DE24814DD10041EA1A /* FoodBrazil.m4a */,
+				1E2570DC24814DD10041EA1A /* OandA.m4a */,
 			);
 			path = AudioFiles;
 			sourceTree = "<group>";
