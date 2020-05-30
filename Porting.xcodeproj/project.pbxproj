@@ -22,6 +22,9 @@
 		2256F475247A0C780063A47A /* DitadoTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2256F473247A0C780063A47A /* DitadoTableViewController.xib */; };
 		328223F12478984E008429F0 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 328223EF2478984E008429F0 /* HomeViewController.swift */; };
 		328223F22478984E008429F0 /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 328223F02478984E008429F0 /* HomeViewController.xib */; };
+		C05DB454247DF6BE006AB7DC /* ARSessionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C05DB452247DF6BE006AB7DC /* ARSessionViewController.swift */; };
+		C05DB455247DF6BE006AB7DC /* ARSessionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C05DB453247DF6BE006AB7DC /* ARSessionViewController.xib */; };
+		C05DB457247DF78E006AB7DC /* Porting.rcproject in Sources */ = {isa = PBXBuildFile; fileRef = C05DB456247DF78E006AB7DC /* Porting.rcproject */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +45,9 @@
 		2256F473247A0C780063A47A /* DitadoTableViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DitadoTableViewController.xib; sourceTree = "<group>"; };
 		328223EF2478984E008429F0 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		328223F02478984E008429F0 /* HomeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
+		C05DB452247DF6BE006AB7DC /* ARSessionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARSessionViewController.swift; sourceTree = "<group>"; };
+		C05DB453247DF6BE006AB7DC /* ARSessionViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ARSessionViewController.xib; sourceTree = "<group>"; };
+		C05DB456247DF78E006AB7DC /* Porting.rcproject */ = {isa = PBXFileReference; lastKnownFileType = file.rcproject; path = Porting.rcproject; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +80,7 @@
 		1EA5941924773BF2007FCBE7 /* Porting */ = {
 			isa = PBXGroup;
 			children = (
+				C05DB451247DF60F006AB7DC /* AR */,
 				2256F469247A0B450063A47A /* Ditados */,
 				328223EE24789835008429F0 /* Home */,
 				1EA5941A24773BF3007FCBE7 /* AppDelegate.swift */,
@@ -108,6 +115,16 @@
 				2256F4672479FAFA0063A47A /* ButtonHome.swift */,
 			);
 			path = Home;
+			sourceTree = "<group>";
+		};
+		C05DB451247DF60F006AB7DC /* AR */ = {
+			isa = PBXGroup;
+			children = (
+				C05DB456247DF78E006AB7DC /* Porting.rcproject */,
+				C05DB452247DF6BE006AB7DC /* ARSessionViewController.swift */,
+				C05DB453247DF6BE006AB7DC /* ARSessionViewController.xib */,
+			);
+			path = AR;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -172,6 +189,7 @@
 				1EA5942724773BF4007FCBE7 /* LaunchScreen.storyboard in Resources */,
 				2256F471247A0C010063A47A /* DitadoTableViewCell.xib in Resources */,
 				1EA5942424773BF4007FCBE7 /* Assets.xcassets in Resources */,
+				C05DB455247DF6BE006AB7DC /* ARSessionViewController.xib in Resources */,
 				1EA5942224773BF3007FCBE7 /* Main.storyboard in Resources */,
 				328223F22478984E008429F0 /* HomeViewController.xib in Resources */,
 			);
@@ -188,10 +206,12 @@
 				1EA5941F24773BF3007FCBE7 /* ViewController.swift in Sources */,
 				2256F470247A0C010063A47A /* DitadoTableViewCell.swift in Sources */,
 				1EA5941B24773BF3007FCBE7 /* AppDelegate.swift in Sources */,
+				C05DB454247DF6BE006AB7DC /* ARSessionViewController.swift in Sources */,
 				1EA5941D24773BF3007FCBE7 /* SceneDelegate.swift in Sources */,
 				1EC6A989247A029900713CA8 /* Ditado.swift in Sources */,
 				2256F474247A0C780063A47A /* DitadoTableViewController.swift in Sources */,
 				328223F12478984E008429F0 /* HomeViewController.swift in Sources */,
+				C05DB457247DF78E006AB7DC /* Porting.rcproject in Sources */,
 				1EC6A98B247A041100713CA8 /* Audio.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -337,8 +357,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = X54K5PJVGU;
+				DEVELOPMENT_TEAM = DHAN829484;
 				INFOPLIST_FILE = Porting/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -355,8 +376,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = X54K5PJVGU;
+				DEVELOPMENT_TEAM = DHAN829484;
 				INFOPLIST_FILE = Porting/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
