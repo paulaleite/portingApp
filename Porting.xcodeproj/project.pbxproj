@@ -159,6 +159,7 @@
 				C05DB453247DF6BE006AB7DC /* ARSessionViewController.xib */,
 			);
 			path = AR;
+        };
 		328223F32478A94A008429F0 /* Selection */ = {
 			isa = PBXGroup;
 			children = (
