@@ -29,5 +29,10 @@ class HomeViewController: UIViewController {
         
     }
     
-
+    @IBAction func didTapAudioExercises(_ sender: Any) {
+        let ditadoTableViewController = DitadoTableViewController()
+        ditadoTableViewController.viewType = .audio
+        self.navigationController?.pushViewController(ditadoTableViewController, animated: true)
+    }
+    
 }
