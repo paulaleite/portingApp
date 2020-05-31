@@ -7,14 +7,19 @@
 //
 
 import UIKit
+import AVFoundation
 
-class VoiceExerciseViewController: UIViewController {
+class VoiceExerciseViewController: UIViewController, AVAudioPlayerDelegate {
     
     @IBOutlet weak var titleLabel: UILabel!
     @IBOutlet weak var questionLabel: UILabel!
     @IBOutlet weak var selectionView: SelectionView!
     
     var audio: Audio?
+    lazy var audioPlayer: AudioPlayer? = {
+        guard let audio = audio else { return nil }
+        return AudioPlayer(named: audio.nomeAudio)
+    }()
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -29,9 +34,8 @@ class VoiceExerciseViewController: UIViewController {
     
     
     @IBAction func didTapPlayAudio(_ sender: Any) {
-        if let audioName = audio?.nomeAudio {
-            AudioPlayer.playSound(named: audioName)
-        }
+        guard let audioPlayer = audioPlayer else { return }
+        audioPlayer.playSound()
     }
     
 }
