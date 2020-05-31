@@ -21,5 +21,18 @@ class HomeViewController: UIViewController {
         self.view.backgroundColor = .white
 
     }
-
+    
+    @IBAction func aparecerTableDitados(_ sender: Any) {
+        
+        let ditadoTableViewController = DitadoTableViewController()
+        self.navigationController?.pushViewController(ditadoTableViewController, animated: true)
+        
+    }
+    
+    @IBAction func didTapAudioExercises(_ sender: Any) {
+        let ditadoTableViewController = DitadoTableViewController()
+        ditadoTableViewController.viewType = .audio
+        self.navigationController?.pushViewController(ditadoTableViewController, animated: true)
+    }
+    
 }

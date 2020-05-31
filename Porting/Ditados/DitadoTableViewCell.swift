@@ -9,7 +9,9 @@
 import UIKit
 
 class DitadoTableViewCell: UITableViewCell {
-
+    
+    @IBOutlet weak var tituloDitado: UILabel!
+    
     override func awakeFromNib() {
         super.awakeFromNib()
     }

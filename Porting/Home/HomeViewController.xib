@@ -39,6 +39,9 @@
                                 <constraint firstAttribute="height" constant="80" id="Jxq-cr-KHE"/>
                             </constraints>
                             <state key="normal" title="Exercícios Escuta"/>
+                            <connections>
+                                <action selector="didTapAudioExercises:" destination="-1" eventType="touchUpInside" id="14O-pT-Wdr"/>
+                            </connections>
                         </button>
                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="h1C-ge-Maj" customClass="ButtonHome" customModule="Porting" customModuleProvider="target">
                             <rect key="frame" x="0.0" y="224" width="334" height="80"/>
@@ -47,6 +50,9 @@
                                 <constraint firstAttribute="height" constant="80" id="5mP-oh-Mk0"/>
                             </constraints>
                             <state key="normal" title="Exercicios Ditados"/>
+                            <connections>
+                                <action selector="aparecerTableDitados:" destination="-1" eventType="touchUpInside" id="0Tv-ps-rhm"/>
+                            </connections>
                         </button>
                     </subviews>
                 </stackView>

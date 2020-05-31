@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1E2570DF24814EDB0041EA1A /* ComingToBrazil.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 1E2570DD24814DD10041EA1A /* ComingToBrazil.m4a */; };
+		1E2570E024814EDB0041EA1A /* FoodBrazil.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 1E2570DE24814DD10041EA1A /* FoodBrazil.m4a */; };
+		1E2570E124814EDB0041EA1A /* OandA.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 1E2570DC24814DD10041EA1A /* OandA.m4a */; };
 		1EA5941B24773BF3007FCBE7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EA5941A24773BF3007FCBE7 /* AppDelegate.swift */; };
 		1EA5941D24773BF3007FCBE7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EA5941C24773BF3007FCBE7 /* SceneDelegate.swift */; };
 		1EA5941F24773BF3007FCBE7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EA5941E24773BF3007FCBE7 /* ViewController.swift */; };
@@ -20,14 +23,24 @@
 		2256F471247A0C010063A47A /* DitadoTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2256F46F247A0C010063A47A /* DitadoTableViewCell.xib */; };
 		2256F474247A0C780063A47A /* DitadoTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2256F472247A0C780063A47A /* DitadoTableViewController.swift */; };
 		2256F475247A0C780063A47A /* DitadoTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2256F473247A0C780063A47A /* DitadoTableViewController.xib */; };
+		3225D402247E0D1200EF1188 /* VoiceExerciseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3225D400247E0D1100EF1188 /* VoiceExerciseViewController.swift */; };
+		3225D403247E0D1200EF1188 /* VoiceExerciseViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3225D401247E0D1100EF1188 /* VoiceExerciseViewController.xib */; };
 		328223F12478984E008429F0 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 328223EF2478984E008429F0 /* HomeViewController.swift */; };
 		328223F22478984E008429F0 /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 328223F02478984E008429F0 /* HomeViewController.xib */; };
 		C05DB454247DF6BE006AB7DC /* ARSessionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C05DB452247DF6BE006AB7DC /* ARSessionViewController.swift */; };
 		C05DB455247DF6BE006AB7DC /* ARSessionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C05DB453247DF6BE006AB7DC /* ARSessionViewController.xib */; };
 		C05DB457247DF78E006AB7DC /* Porting.rcproject in Sources */ = {isa = PBXBuildFile; fileRef = C05DB456247DF78E006AB7DC /* Porting.rcproject */; };
+		328223F52478A981008429F0 /* SelectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 328223F42478A981008429F0 /* SelectionView.swift */; };
+		328223F92478AC72008429F0 /* ExerciseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 328223F72478AC72008429F0 /* ExerciseViewController.swift */; };
+		328223FA2478AC72008429F0 /* ExerciseViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 328223F82478AC72008429F0 /* ExerciseViewController.xib */; };
+		328223FC2478B7EA008429F0 /* SelectionView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 328223FB2478B7EA008429F0 /* SelectionView.xib */; };
+		32AE453E248140D600E1043C /* AudioPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32AE453D248140D600E1043C /* AudioPlayer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1E2570DC24814DD10041EA1A /* OandA.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = OandA.m4a; sourceTree = "<group>"; };
+		1E2570DD24814DD10041EA1A /* ComingToBrazil.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = ComingToBrazil.m4a; sourceTree = "<group>"; };
+		1E2570DE24814DD10041EA1A /* FoodBrazil.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = FoodBrazil.m4a; sourceTree = "<group>"; };
 		1EA5941724773BF2007FCBE7 /* Porting.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Porting.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1EA5941A24773BF3007FCBE7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1EA5941C24773BF3007FCBE7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -43,11 +56,18 @@
 		2256F46F247A0C010063A47A /* DitadoTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DitadoTableViewCell.xib; sourceTree = "<group>"; };
 		2256F472247A0C780063A47A /* DitadoTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DitadoTableViewController.swift; sourceTree = "<group>"; };
 		2256F473247A0C780063A47A /* DitadoTableViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DitadoTableViewController.xib; sourceTree = "<group>"; };
+		3225D400247E0D1100EF1188 /* VoiceExerciseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VoiceExerciseViewController.swift; sourceTree = "<group>"; };
+		3225D401247E0D1100EF1188 /* VoiceExerciseViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = VoiceExerciseViewController.xib; sourceTree = "<group>"; };
 		328223EF2478984E008429F0 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		328223F02478984E008429F0 /* HomeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
 		C05DB452247DF6BE006AB7DC /* ARSessionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARSessionViewController.swift; sourceTree = "<group>"; };
 		C05DB453247DF6BE006AB7DC /* ARSessionViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ARSessionViewController.xib; sourceTree = "<group>"; };
 		C05DB456247DF78E006AB7DC /* Porting.rcproject */ = {isa = PBXFileReference; lastKnownFileType = file.rcproject; path = Porting.rcproject; sourceTree = "<group>"; };
+		328223F42478A981008429F0 /* SelectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectionView.swift; sourceTree = "<group>"; };
+		328223F72478AC72008429F0 /* ExerciseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseViewController.swift; sourceTree = "<group>"; };
+		328223F82478AC72008429F0 /* ExerciseViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ExerciseViewController.xib; sourceTree = "<group>"; };
+		328223FB2478B7EA008429F0 /* SelectionView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SelectionView.xib; sourceTree = "<group>"; };
+		32AE453D248140D600E1043C /* AudioPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioPlayer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,7 +101,11 @@
 			isa = PBXGroup;
 			children = (
 				C05DB451247DF60F006AB7DC /* AR */,
+				32AE453F2481495200E1043C /* AudioFiles */,
+				3225D3FF247E0CF200EF1188 /* VoiceExercise */,
 				2256F469247A0B450063A47A /* Ditados */,
+				328223F62478AC58008429F0 /* Exercise */,
+				328223F32478A94A008429F0 /* Selection */,
 				328223EE24789835008429F0 /* Home */,
 				1EA5941A24773BF3007FCBE7 /* AppDelegate.swift */,
 				1EA5941C24773BF3007FCBE7 /* SceneDelegate.swift */,
@@ -92,6 +116,7 @@
 				1EA5942824773BF4007FCBE7 /* Info.plist */,
 				1EC6A988247A029900713CA8 /* Ditado.swift */,
 				1EC6A98A247A041100713CA8 /* Audio.swift */,
+				32AE453D248140D600E1043C /* AudioPlayer.swift */,
 			);
 			path = Porting;
 			sourceTree = "<group>";
@@ -105,6 +130,15 @@
 				2256F473247A0C780063A47A /* DitadoTableViewController.xib */,
 			);
 			path = Ditados;
+			sourceTree = "<group>";
+		};
+		3225D3FF247E0CF200EF1188 /* VoiceExercise */ = {
+			isa = PBXGroup;
+			children = (
+				3225D400247E0D1100EF1188 /* VoiceExerciseViewController.swift */,
+				3225D401247E0D1100EF1188 /* VoiceExerciseViewController.xib */,
+			);
+			path = VoiceExercise;
 			sourceTree = "<group>";
 		};
 		328223EE24789835008429F0 /* Home */ = {
@@ -125,6 +159,32 @@
 				C05DB453247DF6BE006AB7DC /* ARSessionViewController.xib */,
 			);
 			path = AR;
+		328223F32478A94A008429F0 /* Selection */ = {
+			isa = PBXGroup;
+			children = (
+				328223F42478A981008429F0 /* SelectionView.swift */,
+				328223FB2478B7EA008429F0 /* SelectionView.xib */,
+			);
+			path = Selection;
+			sourceTree = "<group>";
+		};
+		328223F62478AC58008429F0 /* Exercise */ = {
+			isa = PBXGroup;
+			children = (
+				328223F72478AC72008429F0 /* ExerciseViewController.swift */,
+				328223F82478AC72008429F0 /* ExerciseViewController.xib */,
+			);
+			path = Exercise;
+			sourceTree = "<group>";
+		};
+		32AE453F2481495200E1043C /* AudioFiles */ = {
+			isa = PBXGroup;
+			children = (
+				1E2570DD24814DD10041EA1A /* ComingToBrazil.m4a */,
+				1E2570DE24814DD10041EA1A /* FoodBrazil.m4a */,
+				1E2570DC24814DD10041EA1A /* OandA.m4a */,
+			);
+			path = AudioFiles;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -185,13 +245,19 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1E2570DF24814EDB0041EA1A /* ComingToBrazil.m4a in Resources */,
+				1E2570E024814EDB0041EA1A /* FoodBrazil.m4a in Resources */,
+				1E2570E124814EDB0041EA1A /* OandA.m4a in Resources */,
 				2256F475247A0C780063A47A /* DitadoTableViewController.xib in Resources */,
+				328223FA2478AC72008429F0 /* ExerciseViewController.xib in Resources */,
 				1EA5942724773BF4007FCBE7 /* LaunchScreen.storyboard in Resources */,
 				2256F471247A0C010063A47A /* DitadoTableViewCell.xib in Resources */,
+				3225D403247E0D1200EF1188 /* VoiceExerciseViewController.xib in Resources */,
 				1EA5942424773BF4007FCBE7 /* Assets.xcassets in Resources */,
 				C05DB455247DF6BE006AB7DC /* ARSessionViewController.xib in Resources */,
 				1EA5942224773BF3007FCBE7 /* Main.storyboard in Resources */,
 				328223F22478984E008429F0 /* HomeViewController.xib in Resources */,
+				328223FC2478B7EA008429F0 /* SelectionView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -213,6 +279,10 @@
 				328223F12478984E008429F0 /* HomeViewController.swift in Sources */,
 				C05DB457247DF78E006AB7DC /* Porting.rcproject in Sources */,
 				1EC6A98B247A041100713CA8 /* Audio.swift in Sources */,
+				328223F92478AC72008429F0 /* ExerciseViewController.swift in Sources */,
+				32AE453E248140D600E1043C /* AudioPlayer.swift in Sources */,
+				328223F52478A981008429F0 /* SelectionView.swift in Sources */,
+				3225D402247E0D1200EF1188 /* VoiceExerciseViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
