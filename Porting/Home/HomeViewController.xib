@@ -31,6 +31,9 @@
                             </constraints>
                             <fontDescription key="fontDescription" type="system" pointSize="15"/>
                             <state key="normal" title="Sessão AR"/>
+                            <connections>
+                                <action selector="didTapARButton:" destination="-1" eventType="touchUpInside" id="hfe-31-ymK"/>
+                            </connections>
                         </button>
                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sMh-MD-7Si" customClass="ButtonHome" customModule="Porting" customModuleProvider="target">
                             <rect key="frame" x="0.0" y="112" width="334" height="80"/>

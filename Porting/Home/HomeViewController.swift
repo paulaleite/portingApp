@@ -21,6 +21,10 @@ class HomeViewController: UIViewController {
         self.view.backgroundColor = .white
 
     }
+    @IBAction func didTapARButton(_ sender: Any) {
+        let arView = ARSessionViewController()
+        self.navigationController?.pushViewController(arView, animated: true)
+    }
     
     @IBAction func aparecerTableDitados(_ sender: Any) {
         
