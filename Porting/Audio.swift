@@ -28,7 +28,7 @@ struct Audio {
     static func setUpMock() -> [Audio] {
         var audios = [Audio]()
         
-        let audio1 = Audio(titulo: "The importance of 'o' and 'a'", pergunta: "What's the best way to say thank you if you identify yourself as a girl?", respostas: ["Olá, eu sou uma menina.", "Olá, eu sou um menina.", "Olá, eu sou uma menino", "Olá, eu sou um menino."], indiceRespostaCorreta: 0, nomeAudio: "OandA")
+        let audio1 = Audio(titulo: "The importance of 'o' and 'a'", pergunta: "What's the best way to say hello I'm a girl if you identify yourself as a girl?", respostas: ["Olá, eu sou uma menina.", "Olá, eu sou um menina.", "Olá, eu sou uma menino", "Olá, eu sou um menino."], indiceRespostaCorreta: 0, nomeAudio: "OandA")
         audios.append(audio1)
         
         let audio2 = Audio(titulo: "Coming to Brazil?", pergunta: "What's the best way to say hello to someone?", respostas: ["Give the person a high five.", "Do a hand shake.", "Give them a cheek kiss.", "Bow to them."], indiceRespostaCorreta: 2, nomeAudio: "ComingToBrazil")
